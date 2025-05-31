@@ -32,3 +32,14 @@ Para llevar a cabo este análisis de clasificación mediante técnicas de aprend
  1. ¿Qué factores influyen en que un estudiante apruebe o desapruebe el ciclo lectivo?
  2. ¿Qué variables predicen mejor el rendimiento académico de un estudiante?
  3. ¿Qué factores están asociados a un mejor desempeño académico?
+
+*****************************************************************************
+**Autora:** Barrios, Yanina Soledad
+
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=edfedo" alt="Vistas de perfil" />
+  <a href="https://opensource.org/licenses/MIT">
+    <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT" />
+  </a>
+</p>
