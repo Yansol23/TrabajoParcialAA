@@ -1,45 +1,50 @@
-<div align="center">
-  <h2 align="center">
-   Rendimiento Académico de los Estudiantes. 
-    
-  </h2>
-</div>
+# Mi proyecto
 
+Proyecto de Rendimiento academico de los estudiantes
 
+[![Built with Cookiecutter Django](https://img.shields.io/badge/built%20with-Cookiecutter%20Django-ff69b4.svg?logo=cookiecutter)](https://github.com/cookiecutter/cookiecutter-django/)
+[![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
 
-## Tecnicatura Superior en Ciencias de Datos e Inteligencia Artificial.
+License: MIT
 
+## Settings
 
-**Politécnico Superior Malvinas Argentinas.**
+Moved to [settings](https://cookiecutter-django.readthedocs.io/en/latest/1-getting-started/settings.html).
 
-**Materia:** Aprendizaje Automático
+## Basic Commands
 
-**Docente:** Lic. Mirabete Martin
+### Setting Up Your Users
 
-**Año:** 2025
-*****************************************************************************
+- To create a **normal user account**, just go to Sign Up and fill out the form. Once you submit it, you'll see a "Verify Your E-mail Address" page. Go to your console to see a simulated email verification message. Copy the link into your browser. Now the user's email should be verified and ready to go.
 
-**Objetivo:**
-El objetivo principal es predecir el resultado académico final de un estudiante (Aprobar o Reprobar) en función de diversas variables personales, sociales y académicas, utilizando algoritmos de clasificación.
-*****************************************************************************
+- To create a **superuser account**, use this command:
 
-**Relevancia del problema:**
-Comprender qué variables tienen mayor influencia en los resultados académicos permite intervenir de forma más eficiente. Factores como la asistencia, las horas de estudio, el acceso a internet, la educación de los padres y la participación en actividades extracurriculares pueden ser determinantes para el rendimiento. Un modelo predictivo puede ayudar a detectar tempranamente a estudiantes en riesgo de fracaso escolar, permitiendo una respuesta rápida y adecuada.
-*****************************************************************************
-**Preguntas de Investigación o Hipótesis**
-Para llevar a cabo este análisis de clasificación mediante técnicas de aprendizaje automático, definimos las siguientes preguntas de investigación y posibles hipótesis que queremos explorar:
+      $ python manage.py createsuperuser
 
- 1. ¿Qué factores influyen en que un estudiante apruebe o desapruebe el ciclo lectivo?
- 2. ¿Qué variables predicen mejor el rendimiento académico de un estudiante?
- 3. ¿Qué factores están asociados a un mejor desempeño académico?
+For convenience, you can keep your normal user logged in on Chrome and your superuser logged in on Firefox (or similar), so that you can see how the site behaves for both kinds of users.
 
-*****************************************************************************
-**Autora:** Barrios, Yanina Soledad
+### Type checks
 
+Running type checks with mypy:
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=edfedo" alt="Vistas de perfil" />
-  <a href="https://opensource.org/licenses/MIT">
-    <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT" />
-  </a>
-</p>
+    $ mypy mi_proyecto
+
+### Test coverage
+
+To run the tests, check your test coverage, and generate an HTML coverage report:
+
+    $ coverage run -m pytest
+    $ coverage html
+    $ open htmlcov/index.html
+
+#### Running tests with pytest
+
+    $ pytest
+
+### Live reloading and Sass CSS compilation
+
+Moved to [Live reloading and SASS compilation](https://cookiecutter-django.readthedocs.io/en/latest/2-local-development/developing-locally.html#using-webpack-or-gulp).
+
+## Deployment
+
+The following details how to deploy this application.
